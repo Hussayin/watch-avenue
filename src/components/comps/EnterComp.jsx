@@ -122,7 +122,7 @@ const EnterComp = () => {
                 <img
                   src={logo}
                   alt="logo"
-                  className="h-[70px] object-cover opacity-90 transition"
+                  className="h-[70px] object-cover bg-white opacity-90 transition p-[5px] rounded-[5px] "
                 />
               </div>
             ))}
