@@ -22,9 +22,9 @@ const logoss = [
 
 const EnterComp = () => {
   return (
-    <div className="bg-[#101625] h-auto mt-[37px] flex items-center">
+    <div className="bg-[#101625] h-auto mt-[27px] flex items-center">
       {/* ASOSIY CONTAINER */}
-      <div className="w-full mb-[40px] flex flex-col gap-[30px]">
+      <div className="w-full mb-[40px] flex flex-col gap-[25px]">
         {/* tanishtiruv */}
         <motion.div
           initial={{ opacity: 0, x: 50 }}
@@ -56,7 +56,7 @@ const EnterComp = () => {
             <img
               src="/logo-512.png"
               alt=""
-              className=" h-[210px] rounded-[30px] "
+              className=" h-[180px] rounded-[30px] "
             />
           </div>
           <h1 className="text-[23px] leading-6 text-[#ffffff] font-cormorant font-bold mt-2">

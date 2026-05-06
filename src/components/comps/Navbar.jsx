@@ -23,7 +23,7 @@ const Navbar = () => {
           <img
             src="/logo-512.png"
             alt="logo"
-            className=" rounded-lg object-cover h-[65px] "
+            className=" rounded-lg object-cover h-[60px] "
           />
         </div>
 
