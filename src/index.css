@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #101625;
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+.active {
+  background-color: #9a7447;
+  color: white;
+}
+
+/* Scrollbarni butunlay yashirish */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
