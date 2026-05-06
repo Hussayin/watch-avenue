@@ -17,11 +17,11 @@ const SendInfos = () => {
 
   const sendToTelegram = async () => {
     if (!name || !area || !phone) {
-      toast.error("Majburiy maydonlar to‘ldirilmagan");
+      toast.error("Обязательные поля не заполнены");
       return;
     }
 
-    if (+area <= 69) {
+    if (+area <= 1) {
       toast.error("Gilam hajmi 70 kv.m dan katta bo‘lishi shart");
       return;
     }
@@ -59,7 +59,7 @@ const SendInfos = () => {
         });
       }
 
-      toast.success("Ma’lumot yuborildi ✅");
+      toast.success("Заявка отправлена ✅");
 
       setName("");
       setArea("");
@@ -67,7 +67,7 @@ const SendInfos = () => {
       setImage(null);
       setPreview(null);
     } catch (err) {
-      toast.error("Xatolik yuz berdi");
+      toast.error("Произошла ошибка");
     } finally {
       setLoading(false);
     }
@@ -79,20 +79,21 @@ const SendInfos = () => {
       className=" w-full flex justify-center items-center mt-[40px]  h-[750px] mb-[50px]  p-4 "
     >
       <div className="max-w-md mx-auto bg-[#0B0F1A] rounded-2xl px-[10px] py-[35px] shadow">
-        <h2 className="text-center  text-[22px] leading-6 font-bold mb-4 font-cormorant ">
-          Shaxsan Maruf akadan gilam harid qilish uchun malumot qoldring
+        <h2 className="text-center  text-[22px] leading-6 font-bold mb-7 font-cormorant ">
+          Чтобы продать ваши часы, заполните таблицу и оставьте свой номер
+          телефона.
         </h2>
 
         {/* NAME */}
         <label className="text-sm font-medium">
-          Ism familiya <span className="text-red-600">*</span>
+          Имя и фамилия<span className="text-red-600">*</span>
         </label>
         <div className="flex items-center border rounded-lg p-3 mb-3">
           <FaUser className="text-gray-400 mr-2" />
           <input
             type="text"
             className="w-full outline-none bg-[#101625] p-[5px] "
-            placeholder="Ism familiyangiz"
+            placeholder="Имя и фамилия"
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
@@ -100,17 +101,15 @@ const SendInfos = () => {
 
         {/* AREA */}
         <label className="text-sm font-medium">
-          Gilam hajmi (kv.m) <span className="text-red-600">*</span>
+          Сколько вы хотите?<span className="text-red-600">*</span>
         </label>
-        <p className="text-xs text-gray-500 mb-1">
-          Eslatma: 70 kv.m dan katta bo‘lishi shart
-        </p>
+        {/* <p className="text-xs text-gray-500 mb-1">Сколько вы хотите?</p> */}
         <div className="flex items-center border rounded-lg p-3 mb-3">
           <FaRulerCombined className="text-gray-400 mr-2" />
           <input
             type="tel"
             className="w-full outline-none bg-[#101625] p-[5px] "
-            placeholder="Masalan: 80"
+            placeholder="100$"
             value={area}
             onChange={(e) => setArea(e.target.value)}
           />
@@ -118,7 +117,7 @@ const SendInfos = () => {
 
         {/* PHONE */}
         <label className="text-sm font-medium">
-          Telefon raqam <span className="text-red-600">*</span>
+          Номер телефона <span className="text-red-600">*</span>
         </label>
         <div className="flex items-center border rounded-lg p-3 mb-3">
           <FaPhone className="text-gray-400 mr-2" />
@@ -133,13 +132,13 @@ const SendInfos = () => {
 
         {/* IMAGE */}
         <label className="text-sm font-medium">
-          Rasmingizni yuklang sizni tanishmiz uchun{" "}
-          <span className="text-gray-400">(ixtiyoriy)</span>
+          Загрузите фотографию ваших часов
+          <span className="text-red-600">*</span>
         </label>
 
         <label className="border-dashed border-2 rounded-lg p-5 flex flex-col items-center justify-center cursor-pointer mb-3">
           <FaImage className="text-3xl text-gray-400 mb-1" />
-          <span className="text-sm text-gray-500">Rasm tanlash</span>
+          <span className="text-sm text-gray-500">Загрузите</span>
           <input
             type="file"
             className="hidden"
@@ -166,7 +165,7 @@ const SendInfos = () => {
           disabled={loading}
           className="w-full bg-[#ffc822] text-black py-3 rounded-xl font-semibold active:scale-95 transition"
         >
-          {loading ? "Yuborilmoqda..." : "Yuborish"}
+          {loading ? "Отправляется..." : "Отправить"}
         </button>
       </div>
     </div>

@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <>
       {/* NAVBAR */}
-      <div className="bg-[#101625] flex justify-between px-[15px] items-center py-[10px] border-b-2 rounded-b-[30px] border-[#9A7447] relative z-50">
+      <div className="bg-[#101625] flex justify-between px-[15px] items-center py-[10px] border-b-2 rounded-b-[30px] border-[#ffffff] relative z-50">
         {/* logo */}
         <div className=" bg-black w-[90px] flex justify-center items-center rounded-[10px] ">
           <img
@@ -29,7 +29,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-[30px]">
           <button onClick={() => setOpen(true)}>
-            <MdMenuOpen className="text-[#c08d4f]" size={30} />
+            <MdMenuOpen className="text-[#ffffff]" size={30} />
           </button>
         </div>
       </div>
