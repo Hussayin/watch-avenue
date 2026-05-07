@@ -61,7 +61,7 @@ const AllCarpets = () => {
   };
 
   return (
-    <div>
+    <div id="shop">
       <div className="mt-[10px] m-auto w-[97%] mb-[70px]">
         {/* HEADER */}
         <div className="flex rounded-[50%] flex-col items-center mb-[15px]">

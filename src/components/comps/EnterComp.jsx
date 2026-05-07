@@ -78,7 +78,7 @@ const EnterComp = () => {
         >
           <div
             onClick={() => {
-              document.getElementById("signup")?.scrollIntoView({
+              document.getElementById("shop")?.scrollIntoView({
                 behavior: "smooth",
               });
             }}
