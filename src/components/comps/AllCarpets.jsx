@@ -62,22 +62,22 @@ const AllCarpets = () => {
 
   return (
     <div>
-      <div className="mt-[10px] m-auto w-[95%] mb-[70px]">
+      <div className="mt-[10px] m-auto w-[97%] mb-[70px]">
         {/* HEADER */}
-        <div className="flex flex-col items-center mb-[15px]">
+        <div className="flex rounded-[50%] flex-col items-center mb-[15px]">
           <img
-            src="/mmmLogo512.png"
+            src="/logo-512.png"
             alt="logo"
-            className="rounded-lg object-cover h-[80px] w-[120px]"
+            className="rounded-[50%] object-contain  h-[80px] w-[120px]"
           />
           <h1 className="text-[25px] font-cormorant">
-            Eron va Turkiya Premium gilamlari
+            Watch Avenue - магазин часов.
           </h1>
         </div>
 
         {/* COUNTRY FILTER */}
         <div className="flex gap-[5px] mb-[10px] flex-wrap">
-          {["All", "Aksiya", "Turkiya"].map((country) => (
+          {["All", "Original", "Clone", "LuxCopy"].map((country) => (
             <button
               key={country}
               onClick={() => setActiveCountry(country)}
@@ -130,25 +130,26 @@ const AllCarpets = () => {
         </div>
 
         {/* PRODUCTS */}
-        <div className=" flex justify-center items-center flex-col gap-[13px]">
+        <div className=" grid grid-cols-2 justify-center items-center gap-[5px]">
           {filteredProducts.map((product) => (
             <div
               key={product.id}
               className={`${product.abs}  bg-[#0B0F1A] border-[2px] border-opacity-50 w-[100%] p-[15px] border-white rounded-[10px] cursor-pointer`}
               onClick={() => handleProductClick(product)}
             >
-              {/* name code */}
-              <div>
-                <h1 className=" flex items-center gap-[10px] uppercase font-mono ">
-                  #{product.design}{" "}
-                  <IoPricetagsSharp className=" text-red-600 text-[25px]" />{" "}
-                </h1>
-              </div>
-              <div className={`w-[100%]  ${product.rotate} m-auto mt-[7px]`}>
+              {/* logo */}
+              {/* <div className=" flex justify-center items-center">
+                <img
+                  src={product.countri}
+                  alt="country"
+                  className=" bg-white h-[35px] rounded-[10px] "
+                />
+              </div> */}
+              <div className={`w-[100%] m-auto mt-[7px]`}>
                 <motion.img
                   src={product.image}
                   alt={product.aboutProduct}
-                  className=" w-full object-contain h-[450px] "
+                  className=" w-full object-contain h-[270px] "
                   initial={{ opacity: 0, filter: "blur(12px)" }}
                   animate={{ opacity: 1, filter: "blur(0px)" }}
                   transition={{ duration: 0.6 }}
@@ -156,23 +157,21 @@ const AllCarpets = () => {
               </div>
 
               <div className="m-2 flex justify-center flex-col gap-[15px] items-center">
-                <img src={product.countri} alt="country" className="h-[25px]" />
-                <div className="leading-6">
-                  <h4 className="line-through text-center opacity-40 text-[15px] font-mono font-bold">
+                <div className="leading-5">
+                  <h4 className="text-center text-[15px] font-mono font-bold">
+                    {product.price}$
+                  </h4>
+                  <h4 className=" text-red-600 text-[15px] font-mono font-bold">
+                    {(product.price * USD_TO_UZS).toLocaleString("uz-UZ")} so'm
+                  </h4>
+                  <h4 className="line-through text-center opacity-40 text-[10px] font-mono font-bold">
                     {(product.demoPrice * USD_TO_UZS).toLocaleString("uz-UZ")}{" "}
                     so'm
-                  </h4>
-                  <h4 className=" text-red-600 text-[25px] font-mono font-bold">
-                    {((product.price + 3) * USD_TO_UZS).toLocaleString("uz-UZ")}{" "}
-                    so'm
-                  </h4>
-                  <h4 className="text-center text-[15px] font-mono font-bold">
-                    {product.price + 3}$
                   </h4>
                 </div>
               </div>
               {/* RAZMERLAR */}
-              <div className="flex overflow-x-auto  gap-[5px] mt-[15px] ">
+              {/* <div className="flex overflow-x-auto  gap-[5px] mt-[15px] ">
                 {product.typeProduct.map((size) => (
                   <span
                     key={size}
@@ -181,7 +180,7 @@ const AllCarpets = () => {
                     {size}
                   </span>
                 ))}
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

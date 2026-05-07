@@ -44,7 +44,7 @@ const ProductModal = ({ product, closeModal }) => {
           <div className=" flex-1 overflow-y-auto mb-[50px] ">
             {/* name code */}
             <div className=" text-center m-auto ">
-              <h1 className=" uppercase font-mono ">#{product.design}</h1>
+              <h1 className=" uppercase font-mono ">{product.design}</h1>
             </div>
             <div
               className={`${product.rotate} mt-[20px]  mb-[20px] w-[100%] m-auto`}

@@ -56,7 +56,7 @@ const EnterComp = () => {
             <img
               src="/logo-512.png"
               alt=""
-              className=" h-[180px] rounded-[30px] "
+              className=" h-[150px] rounded-[30px] "
             />
           </div>
           <h1 className="text-[23px] leading-6 text-[#ffffff] font-cormorant font-bold mt-2">
@@ -111,7 +111,7 @@ const EnterComp = () => {
             duration: 1, // Animatsiya davomiyligi
             delay: 0.2,
           }}
-          className="w-full overflow-hidden mt-[30px] bg-[#00000029] py-[12px]"
+          className="w-full overflow-hidden mt-[15px] bg-[#00000029] py-[12px]"
         >
           <div className="flex w-max animate-marquee gap-[30px]">
             {[...logos, ...logos].map((logo, index) => (
