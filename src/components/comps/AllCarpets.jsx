@@ -161,8 +161,8 @@ const AllCarpets = () => {
                   <h4 className="text-center text-[15px] font-mono font-bold">
                     {product.price}$
                   </h4>
-                  <h4 className=" text-red-600 text-[15px] font-mono font-bold">
-                    {(product.price * USD_TO_UZS).toLocaleString("uz-UZ")} so'm
+                  <h4 className=" text-red-600 text-[13px] font-mono font-bold">
+                    {(product.price * USD_TO_UZS).toLocaleString("uz-UZ")} UZS
                   </h4>
                   <h4 className="line-through text-center opacity-40 text-[10px] font-mono font-bold">
                     {(product.demoPrice * USD_TO_UZS).toLocaleString("uz-UZ")}{" "}
