@@ -1,22 +1,5 @@
 export const Carpets = {
   Original: [
-    // {
-    //   id: "original-1000",
-    //   countri:
-    //     "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
-    //   image: "",
-    //   image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-    //   design: "angel e407as",
-    //   abs: " fixed ",
-    //   rotate: "",
-    //   price: 17,
-    //   typeProduct: ["Angel"],
-    //   demoPrice: 47,
-    //   aboutProduct: "",
-    //   zichligi: "78 to'qim",
-    //   material: "100% paxta",
-    //   ipBalandligi: "7mm",
-    // },
     {
       id: "original-098",
       countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",

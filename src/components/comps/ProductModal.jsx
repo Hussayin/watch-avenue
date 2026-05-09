@@ -23,17 +23,17 @@ const ProductModal = ({ product, closeModal }) => {
       >
         {/* MODAL CONTENT */}
         <motion.div
-          className="fixed  top-0 right-0 w-full h-full z-[100000000000000] bg-[#0B0F1A] overflow-y-auto"
+          className="fixed  top-0 right-0 w-full h-full z-[100000000000000] bg-[#101625] overflow-y-auto"
           initial={{ x: "100%" }}
           animate={{ x: 0 }}
           exit={{ x: "100%" }}
           transition={{ duration: 0.45, ease: "easeInOut" }}
         >
           {/* HEADER */}
-          <div className=" py-[12px] px-[13px] mb-[15px] border-b-2 border-[#9e7746] ">
+          <div className=" py-[12px] px-[13px] mb-[15px] bg-[#0B0F1A] border-b-2 border-[#ffffff] ">
             <button
               onClick={closeModal}
-              className=" text-[23px] flex justify-center items-center text-[#9e7746] font-cormorant font-bold "
+              className=" text-[23px] flex justify-center items-center text-[#ffffff] font-cormorant font-bold "
             >
               {" "}
               <IoIosArrowBack /> Назад

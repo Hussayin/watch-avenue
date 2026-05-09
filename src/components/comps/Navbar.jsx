@@ -23,7 +23,7 @@ const Navbar = () => {
           <img
             src="/logo-512.png"
             alt="logo"
-            className=" rounded-lg object-cover h-[60px] "
+            className=" rounded-lg object-cover h-[50px] "
           />
         </div>
 
@@ -73,7 +73,7 @@ const Navbar = () => {
                       duration: 1, // Animatsiya davomiyligi
                       delay: 0.2,
                     }}
-                    href="https://maps.app.goo.gl/hXmR8HnFqTpARHRU8"
+                    href="https://yandex.uz/maps/-/CPcfa6k2"
                     target="_blank"
                     className=" flex justify-center bg-[#101625] text-[#9A7447] border-[#9A7447] font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-cormorant text-[20px] w-[100%] "
                   >
@@ -89,7 +89,7 @@ const Navbar = () => {
                       duration: 1, // Animatsiya davomiyligi
                       delay: 0.3,
                     }}
-                    href="https://www.instagram.com/maruf__mahkamov/"
+                    href="https://www.instagram.com/bakhodir_watch/"
                     target="_blank"
                     className=" flex justify-center bg-[#101625] text-[#9A7447] border-[#9A7447] font-bold items-center relative border-2 p-[7px] rounded-[15px] text-center font-cormorant text-[20px] w-[100%] "
                   >
@@ -105,7 +105,7 @@ const Navbar = () => {
                       duration: 1, // Animatsiya davomiyligi
                       delay: 0.4,
                     }}
-                    href="https://t.me/khusko077"
+                    href="https://t.me/WatchAvenueTashkent"
                     target="_blank"
                     className=" flex justify-center bg-[#101625] text-[#9A7447] border-[#9A7447] font-extrabold items-center relative border-2 p-[7px] rounded-[15px] text-center font-cormorant text-[20px] w-[100%] "
                   >
@@ -131,7 +131,7 @@ const Navbar = () => {
               </div>
 
               {/* funder image */}
-              <div className=" w-[95%] m-auto mt-[30px] ">
+              {/* <div className=" w-[95%] m-auto mt-[30px] ">
                 <div className="  flex justify-center items-center flex-col ">
                   <a
                     href="https://www.instagram.com/maruf__mahkamov/"
@@ -139,7 +139,7 @@ const Navbar = () => {
                     className=" border-[#9A7447] border-[3px] rounded-[22px] p-[10px] "
                   >
                     <img
-                      src="/maruf.jpg"
+                      src="https://instagram.ftas1-1.fna.fbcdn.net/v/t51.2885-19/505495171_17850907713475066_5010371811286718567_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.ftas1-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2gFHbiuskfYCiTABzdF2rpxRrEZ3-Zx-3qtwloOi2d6Hn-FEM_jf3GG_b5uKcPTBiz8&_nc_ohc=w-qf0D_abUkQ7kNvwHplOTy&_nc_gid=SL8igjYW1LBgMynJXGoX4w&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Af5MDS1t61QJJ2_L-_ne1_XGGpcd1TIdfFLzoxtqT8eV0g&oe=6A04BFF5&_nc_sid=7a9f4b"
                       alt="funder"
                       className=" h-[320px] rounded-[20px] "
                     />
@@ -153,7 +153,7 @@ const Navbar = () => {
                     </h1>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
           </>
         )}

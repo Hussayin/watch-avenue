@@ -81,7 +81,7 @@ const AllCarpets = () => {
             <button
               key={country}
               onClick={() => setActiveCountry(country)}
-              className={`px-4 py-1 rounded-full font-mono font-bold
+              className={`px-4 py-1 rounded-full font-mono text-[15px] font-bold
                 ${
                   activeCountry === country
                     ? "bg-white text-black shadow-md"
@@ -99,7 +99,7 @@ const AllCarpets = () => {
             <button
               key={size}
               onClick={() => setActiveSize(size)}
-              className={`px-4 py-1 rounded-full font-mono font-bold
+              className={`px-4 py-1 rounded-full text-[15px] font-mono font-bold
                 ${
                   activeSize === size
                     ? "bg-white text-black shadow-md"
@@ -112,7 +112,7 @@ const AllCarpets = () => {
         </div>
 
         {/* PRICE FILTER */}
-        <div className="flex gap-4 mb-[13px]">
+        <div className="flex gap-2 mb-[13px]">
           <input
             type="number"
             placeholder="Min price"
