@@ -1,23 +1,23 @@
 export const Carpets = {
   Original: [
     {
-      id: "original-098",
+      id: "original-001",
+      type: "ORIGINAL",
       countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
       image:
         "https://watch-base-work.netlify.app/rolexOthers/maurice-AI6158SS0011302__1_-removebg-preview.webp",
       image1: "",
+      image2: "",
+      image3: "",
       design: "Maurice Lacroix",
-      rotate: "",
       price: 2200,
-      typeProduct: ["Maurice"],
       demoPrice: 2500,
+      typeProduct: ["Maurice"],
       aboutProduct: "",
-      zichligi: "1500 taroq",
-      material: "100% paxta",
-      ipBalandligi: "7mm",
     },
     {
       id: "original-017",
+      type: "ORIGINAL",
       countri:
         "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
       image:

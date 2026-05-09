@@ -134,7 +134,7 @@ const AllCarpets = () => {
           {filteredProducts.map((product) => (
             <div
               key={product.id}
-              className={`${product.abs}  bg-[#0B0F1A] border-[2px] border-opacity-50 w-[100%] p-[15px] border-white rounded-[10px] cursor-pointer`}
+              className={`${product.abs} relative  bg-[#0B0F1A] border-[2px] border-opacity-50 w-[100%] p-[15px] border-white rounded-[10px] cursor-pointer`}
               onClick={() => handleProductClick(product)}
             >
               {/* logo */}
@@ -145,7 +145,16 @@ const AllCarpets = () => {
                   className=" bg-white h-[35px] rounded-[10px] "
                 />
               </div> */}
-              <div className={`w-[100%] m-auto mt-[7px]`}>
+              {/* type */}
+              <div className=" flex absolute top-[0px] left-0 ">
+                <div className=" bg-green-800 flex rounded-[8px] ">
+                  <h1 className=" font-cormorant font-bold px-[6px] text-[10px] py-[2px] ">
+                    {product.type}
+                  </h1>
+                </div>
+              </div>
+              {/* images */}
+              <div className={`w-[100%] m-auto mt-[13px]`}>
                 <motion.img
                   src={product.image}
                   alt={product.aboutProduct}
@@ -155,7 +164,7 @@ const AllCarpets = () => {
                   transition={{ duration: 0.6 }}
                 />
               </div>
-
+              {/* price */}
               <div className="m-2 flex justify-center flex-col gap-[15px] items-center">
                 <div className="leading-5">
                   <h4 className="text-center text-[15px] font-mono font-bold">
