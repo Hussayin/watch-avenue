@@ -5,7 +5,7 @@ export const Carpets = {
       type: "ORIGINAL",
       countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
       image:
-        "https://watch-base-work.netlify.app/rolexOthers/maurice-AI6158SS0011302__1_-removebg-preview.webp",
+        "https://www.mauricelacroix.com/dw/image/v2/BKDJ_PRD/on/demandware.static/-/Sites-mla_masterCatalog/default/dwa1227bc6/images/hi-res/AI6006-SS00F-550-E_soldat_1.png?sw=1200&sh=1200&sfrm=png&q=75",
       image1: "",
       image2: "",
       image3: "",
