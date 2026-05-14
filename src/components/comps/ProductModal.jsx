@@ -78,7 +78,7 @@ const ProductModal = ({ product, closeModal }) => {
               <h4 className="line-through text-center opacity-40 text-[15px] font-mono font-bold">
                 {(product.demoPrice * USD_TO_UZS).toLocaleString("uz-UZ")} so'm
               </h4>
-              <div className=" bg-green-800 m-auto mt-[7px] flex justify-center items-center w-[150px] text-center rounded-[8px] ">
+              <div className=" bg-green-800 m-auto mt-[7px] flex justify-center items-center w-[130px] text-center rounded-[8px] ">
                 <h1 className=" font-mono font-bold px-[6px] text-center text-[15px] py-[2px] ">
                   {product.type}
                 </h1>
