@@ -43,39 +43,49 @@ const ProductModal = ({ product, closeModal }) => {
           {/* CONTENT */}
           <div className=" flex-1 overflow-y-auto mb-[50px] ">
             {/* name code */}
-            <div className=" text-center m-auto ">
-              <h1 className=" uppercase font-mono ">{product.design}</h1>
+            <div className=" mx-[10px] flex justify-between items-center text-center m-auto ">
+              <img
+                src={product.countri}
+                alt={product.aboutProduct}
+                className=" h-[50px] bg-white rounded-lg "
+              />
+              <div className=" bg-[#0b0f18] border-white border-[1px] px-[10px] py-[13px] rounded-[12px] ">
+                <h1 className=" font-sans">Есть в наличии</h1>
+              </div>
             </div>
             <div
-              className={`${product.rotate} mt-[20px]  mb-[20px] w-[100%] m-auto`}
+              className={` mt-[30px] flex justify-center items-center  mb-[20px] w-[100%] m-auto`}
             >
               <img
                 src={product.image}
-                className=" object-contain h-[100%] w-[120%]  "
+                className=" object-contain h-[100%] w-[60%]  "
                 alt={product.aboutProduct}
               />
             </div>
 
-            <div className=" flex flex-col justify-center gap-3 items-center mt-[15px] ">
-              <img
-                src={product.countri}
-                alt={product.aboutProduct}
-                className=" h-[20px] "
-              />
+            {/* <div className=" flex flex-col justify-center gap-3 items-center mt-[15px] ">
               <h2 className=" font-cormorant font-bold text-[25px] leading-5 text-white ">
                 {product.aboutProduct}
               </h2>
-            </div>
-            <div className="leading-6 text-center ">
-              <h4 className=" text-[25px] font-mono font-bold">
+            </div> */}
+            <div className="leading-7 text-center flex justify-center items-center flex-col ">
+              <h4 className=" text-center text-[20px] font-mono font-bold">
+                {product.price}$
+              </h4>
+              <h4 className="  text-red-600 text-[25px] font-mono font-bold">
                 {(product.price * USD_TO_UZS).toLocaleString("uz-UZ")} so'm
               </h4>
               <h4 className="line-through text-center opacity-40 text-[15px] font-mono font-bold">
                 {(product.demoPrice * USD_TO_UZS).toLocaleString("uz-UZ")} so'm
               </h4>
+              <div className=" bg-green-800 m-auto mt-[7px] flex justify-center items-center w-[150px] text-center rounded-[8px] ">
+                <h1 className=" font-mono font-bold px-[6px] text-center text-[15px] py-[2px] ">
+                  {product.type}
+                </h1>
+              </div>
             </div>
 
-            {/* RAZMERLAR */}
+            {/* RAZMERLAR
             <div className="flex flex-wrap px-[15px]  gap-[5px] mt-[25px] ">
               {product.typeProduct.map((size) => (
                 <span
@@ -85,7 +95,7 @@ const ProductModal = ({ product, closeModal }) => {
                   {size}
                 </span>
               ))}
-            </div>
+            </div> */}
 
             {/* <div className=" text-[#9e7746] font-bold text-[23px] mt-[10px] w-[95%] m-auto ">
               <p className=" font-cormorant ">Зичлиги: {product.zichligi}</p>
