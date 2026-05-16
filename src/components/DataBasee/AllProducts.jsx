@@ -5,33 +5,23 @@ export const Carpets = {
       type: "ORIGINAL",
       countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
       image:
-        "https://www.mauricelacroix.com/dw/image/v2/BKDJ_PRD/on/demandware.static/-/Sites-mla_masterCatalog/default/dwa1227bc6/images/hi-res/AI6006-SS00F-550-E_soldat_1.png?sw=1200&sh=1200&sfrm=png&q=75",
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/maurice-AI6006-SS00F-550-E_soldat_1.webp",
       image1: "",
       image2: "",
       image3: "",
-      design: "Maurice Lacroix",
       price: 2200,
-      demoPrice: 2500,
+      demoPrice: 4000,
       typeProduct: ["Maurice"],
-      aboutProduct: "",
-    },
-    {
-      id: "original-017",
-      type: "ORIGINAL",
-      countri:
-        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
-      image:
-        "https://watch-base-work.netlify.app/rolexOthers/maurice-AI6158SS0011302-removebg-preview.webp",
-      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra m961a",
-      rotate: "",
-      price: 2200,
-      typeProduct: ["Omega"],
-      demoPrice: 2500,
-      aboutProduct: "",
-      zichligi: "78 to'qim",
-      material: "100% paxta",
-      ipBalandligi: "7mm",
+      design: "Maurice Lacroix Aikon",
+      ref: "AI-6006SS00F550E",
+      size: "35 мм",
+      heart: "Механика + Автоподзавод + Бриллианты", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Женские", // Женские, Мужские, Унисекс
+      rim: "Каучуковый + Сталь", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "200 м (20ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
     },
   ],
   Clone: [
@@ -52,23 +42,6 @@ export const Carpets = {
       material: "100% paxta",
       ipBalandligi: "7mm",
     },
-    {
-      id: "clone-017",
-      countri:
-        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
-      image:
-        "https://bekhruzwatch-data.netlify.app/Maurice-Lacroix-done/AIKON-TIDE-40MM-FIBA-3X3-AI200820YZ02000.webp",
-      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra m961a",
-      rotate: "",
-      price: 2200,
-      typeProduct: ["Rolex"],
-      demoPrice: 2500,
-      aboutProduct: "",
-      zichligi: "78 to'qim",
-      material: "100% paxta",
-      ipBalandligi: "7mm",
-    },
   ],
   LuxCopy: [
     {
@@ -85,23 +58,6 @@ export const Carpets = {
       demoPrice: 2500,
       aboutProduct: "",
       zichligi: "1500 taroq",
-      material: "100% paxta",
-      ipBalandligi: "7mm",
-    },
-    {
-      id: "luxcopy-017",
-      countri:
-        "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
-      image:
-        "https://bekhruzwatch-data.netlify.app/Maurice-Lacroix-done/Maurice-Lacroix-Aikon-Quartz-AI200804000400J.webp",
-      image1: "https://mahkamov-images.netlify.app/eron/IMG_8589.webp",
-      design: "afra m961a",
-      rotate: "",
-      price: 30,
-      typeProduct: ["Rado"],
-      demoPrice: 2500,
-      aboutProduct: "",
-      zichligi: "78 to'qim",
       material: "100% paxta",
       ipBalandligi: "7mm",
     },

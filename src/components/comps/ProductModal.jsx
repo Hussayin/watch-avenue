@@ -42,7 +42,6 @@ const ProductModal = ({ product, closeModal }) => {
 
           {/* CONTENT */}
           <div className=" flex-1 overflow-y-auto mb-[50px] ">
-            {/* name code */}
             <div className=" mx-[10px] flex justify-between items-center text-center m-auto ">
               <img
                 src={product.countri}
@@ -53,21 +52,17 @@ const ProductModal = ({ product, closeModal }) => {
                 <h1 className=" font-sans">Есть в наличии</h1>
               </div>
             </div>
+            {/* product images */}
             <div
-              className={` mt-[30px] flex justify-center items-center  mb-[20px] w-[100%] m-auto`}
+              className={` mt-[60px] flex justify-center items-center  mb-[20px] w-[100%] m-auto`}
             >
               <img
                 src={product.image}
-                className=" object-contain h-[100%] w-[60%]  "
+                className=" object-contain h-[100%] w-[85%]  "
                 alt={product.aboutProduct}
               />
             </div>
-
-            {/* <div className=" flex flex-col justify-center gap-3 items-center mt-[15px] ">
-              <h2 className=" font-cormorant font-bold text-[25px] leading-5 text-white ">
-                {product.aboutProduct}
-              </h2>
-            </div> */}
+            {/* product Prices */}
             <div className="leading-7 text-center flex justify-center items-center flex-col ">
               <h4 className=" text-center text-[20px] font-mono font-bold">
                 {product.price}$
@@ -79,31 +74,38 @@ const ProductModal = ({ product, closeModal }) => {
                 {(product.demoPrice * USD_TO_UZS).toLocaleString("uz-UZ")} so'm
               </h4>
               <div className=" bg-green-800 m-auto mt-[7px] flex justify-center items-center w-[130px] text-center rounded-[8px] ">
-                <h1 className=" font-mono font-bold px-[6px] text-center text-[15px] py-[2px] ">
+                <h1 className=" font-mono font-bold px-[5px] text-center text-[13px] py-[2px] ">
                   {product.type}
                 </h1>
               </div>
             </div>
-
-            {/* RAZMERLAR
-            <div className="flex flex-wrap px-[15px]  gap-[5px] mt-[25px] ">
-              {product.typeProduct.map((size) => (
-                <span
-                  key={size}
-                  className="text-[13px] font-mono font-bold px-2 py-[2px] bg-white text-black rounded-full"
-                >
-                  {size}
-                </span>
-              ))}
-            </div> */}
-
-            {/* <div className=" text-[#9e7746] font-bold text-[23px] mt-[10px] w-[95%] m-auto ">
-              <p className=" font-cormorant ">Зичлиги: {product.zichligi}</p>
-              <p className=" font-cormorant ">Материал: {product.material}</p>
-              <p className=" font-cormorant ">
-                Ип баландлиги: {product.ipBalandligi}
-              </p>
-            </div> */}
+            {/* Infos Product */}
+            <div className=" mt-[40px]">
+              {/* buy in out store */}
+              <div className=" text-center ">
+                <h1 className=" text-[20px] mb-[10px] ">Характеристики</h1>
+                <p className=" text-[15px] font-sans ">
+                  Купить {product.design} {product.ref} в официальном магазине
+                  Watch Avenue. Выбрать и заказать часы {product.design} - цена,
+                  официальная гарантия, доставка по Uzbekistan. Покупку можно
+                  оформить онлайн, выбрав для получения товара доставку или
+                  официальный бутик, сделав заказ на самовывоз.
+                </p>
+              </div>
+              {/* short infos */}
+              <div className=" mt-[20px] px-[10px] ">
+                <h3>-{product.design}</h3>
+                <h3>-Ref: {product.ref}</h3>
+                <h3>-Диаметр: {product.size}</h3>
+                <h3>-{product.heart}</h3>
+                <h3>-Cтекло: {product.glass}</h3>
+                <h3>-Пол: {product.gender}</h3>
+                <h3>-{product.rim}</h3>
+                <h3>-Водонепроницаемость: {product.atm}</h3>
+                <h3>Страна производитель: {product.made}</h3>
+                <h3>-{product.garant}</h3>
+              </div>
+            </div>
           </div>
         </motion.div>
       </motion.div>
