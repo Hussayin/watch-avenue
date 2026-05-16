@@ -58,7 +58,7 @@ const ProductModal = ({ product, closeModal }) => {
             >
               <img
                 src={product.image}
-                className=" object-contain h-[100%] w-[85%]  "
+                className=" object-contain h-[100%] w-[70%]  "
                 alt={product.aboutProduct}
               />
             </div>
