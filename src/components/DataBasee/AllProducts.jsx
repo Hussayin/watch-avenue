@@ -9,7 +9,7 @@ export const Carpets = {
       image1: "",
       image2: "",
       image3: "",
-      price: 2200,
+      price: 2300,
       demoPrice: 4000,
       typeProduct: ["Maurice"],
       design: "Maurice Lacroix Aikon",
@@ -20,6 +20,98 @@ export const Carpets = {
       gender: "Женские", // Женские, Мужские, Унисекс
       rim: "Каучуковый + Сталь", //Каучуковый, Сталь, Керамика, Кожаный ремень
       atm: "200 м (20ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-002",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/maurice-AI1106SS0024501.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 1200,
+      demoPrice: 2000,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Aikon",
+      ref: "AI-1106SS0024501",
+      size: "35 мм",
+      heart: "Кварц + Бриллианты", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Женские", // Женские, Мужские, Унисекс
+      rim: "Сталь", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "100 м (10ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-003",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/maurice-AI1106SS0025501.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 1200,
+      demoPrice: 2000,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Aikon",
+      ref: "AI-1106SS0024501",
+      size: "35 мм",
+      heart: "Кварц + Бриллианты", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Женские", // Женские, Мужские, Унисекс
+      rim: "Сталь", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "100 м (10ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-004",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/maurice-AI1108SS0024311.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 850,
+      demoPrice: 1500,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Aikon",
+      ref: "AI-1108SS0024311",
+      size: "40 мм",
+      heart: "Кварц", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Женские", // Женские, Мужские, Унисекс
+      rim: "Сталь", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "100 м (10ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-005",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/maurice-AI6007-PVC004304.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 850,
+      demoPrice: 1500,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Aikon Blue PVD Limited Edition",
+      ref: "AI-6007PVC004304",
+      size: "39 мм",
+      heart: "Кварц", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Женские", // Женские, Мужские, Унисекс
+      rim: "Каучуковый", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "200 м (10ATM)", // часы для дайвинга, Diver
       made: "Швейцария",
       garant: "Гарантия 2 года",
     },
