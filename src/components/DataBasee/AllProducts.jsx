@@ -248,7 +248,168 @@ export const Carpets = {
       heart: "Кварц", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
       glass: "Сапфировое",
       gender: "Мужские", // Женские, Мужские, Унисекс
-      rim: "Сталь", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      rim: "Кожаный ремень", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "100 м (10ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-012",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/Maurice-Lacroix-PT-6358SS0012302.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 1600,
+      demoPrice: 2500,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Pontos Day Date",
+      ref: "PT-6358SS0012302",
+      size: "41 мм",
+      heart: "Автоподзавод, Механика,", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Мужские", // Женские, Мужские, Унисекс
+      rim: "Кожаный ремень", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "100 м (10ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-013",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/Maurice-Lacroix-PT-6358SS0013332.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 1600,
+      demoPrice: 2500,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Pontos Day Date",
+      ref: "PT-6358SS0013332",
+      size: "41 мм",
+      heart: "Автоподзавод, Механика,", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Мужские", // Женские, Мужские, Унисекс
+      rim: "Кожаный ремень", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "100 м (10ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-014",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/Maurice-Lacroix-PT-6358SS0044314.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 1700,
+      demoPrice: 2500,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Pontos Day Date",
+      ref: "PT-6358SS0044314",
+      size: "41 мм",
+      heart: "Автоподзавод, Механика,", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Мужские", // Женские, Мужские, Унисекс
+      rim: "Кожаный ремень", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "100 м (10ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-015",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/maurice-MR-7078SS001320.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 3500,
+      demoPrice: 7000,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Retrograde Moonphase Masterpiece",
+      ref: "MR-7078SS001320",
+      size: "41 мм",
+      heart: "Автоподзавод, Механика,", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Мужские", // Женские, Мужские, Унисекс
+      rim: "Кожаный ремень", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "100 м (10ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-016",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/maurice-PT-6388SS0014204.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 2200,
+      demoPrice: 4000,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Pontos Chronograph",
+      ref: "PT-6388SS0014204",
+      size: "43 мм",
+      heart: "Автоподзавод, Механика,", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Мужские", // Женские, Мужские, Унисекс
+      rim: "Кожаный ремень", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "100 м (10ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-017",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/maurice-PT2-6388SS0014204.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 1600,
+      demoPrice: 2500,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Pontos Chronograph",
+      ref: "PT2-6388SS0014204",
+      size: "43 мм",
+      heart: "Автоподзавод, Механика,", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Мужские", // Женские, Мужские, Унисекс
+      rim: "Кожаный ремень", //Каучуковый, Сталь, Керамика, Кожаный ремень
+      atm: "100 м (10ATM)", // часы для дайвинга, Diver
+      made: "Швейцария",
+      garant: "Гарантия 2 года",
+    },
+    {
+      id: "original-018",
+      type: "ORIGINAL",
+      countri: "https://www.thewatchoutlet.uz/assets/maurice-BUksf-Zc.png",
+      image:
+        "https://watch-avenue-base.netlify.app/MauriceLacroix/maurice-PT6388SS0024201.webp",
+      image1: "",
+      image2: "",
+      image3: "",
+      price: 2200,
+      demoPrice: 3700,
+      typeProduct: ["Maurice"],
+      design: "Maurice Lacroix Pontos Chronograph",
+      ref: "PT-6388SS0024201",
+      size: "43 мм",
+      heart: "Автоподзавод, Механика,", // Хронограф, Автоподзавод, Механика, Кварц, Бриллианты
+      glass: "Сапфировое",
+      gender: "Мужские", // Женские, Мужские, Унисекс
+      rim: "Кожаный ремень", //Каучуковый, Сталь, Керамика, Кожаный ремень
       atm: "100 м (10ATM)", // часы для дайвинга, Diver
       made: "Швейцария",
       garant: "Гарантия 2 года",
